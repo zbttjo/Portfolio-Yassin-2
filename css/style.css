@@ -3,18 +3,19 @@
     padding: 0;
 }
 body{
-    background-color: rgb(13, 10, 27);
+    background-color: #191716;
     display:flex;
+    font-family: 'Bebas Neue', cursive;
 }
 .sidebar{ 
     width: 20%;
-    background-color: antiquewhite;
+    background-color: rgb(18, 19, 20);
     margin: 20px;
 }
 .sidebar .profil{
     width: 100%;
     text-align: center;
-    background-color: rgb(45, 41, 49);
+    background-color: rgb(228, 169, 7);
 }
 .sidebar .profil img{
     height: 80px;
@@ -30,22 +31,23 @@ body{
 }
 .sidebar .profil h2{
     padding-bottom: 50px;
+    color:brown;
 }
 .sidebar .infos{
     text-align: center;
+    color:brown;
 }
 
 /*Main Section*/
 
 .main-section{
-    width: 65%;
-    margin: 20px;
+    width: 70%;
 }
 .main-top{
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-color: rgb(18, 19, 20);
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
 }
 .text-side{
@@ -56,21 +58,22 @@ body{
 .text-side h1{
     margin-top: 15%;
     font-size: 50px;
-    font-family: cursive;
-    color: beige;
+    color: rgb(228, 169, 7);
 }
 .text-side h2{
     margin-top: 10px;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
     color: azure;
 }
-
-
-.main-skills{
-    width: 100%;
-    height: 100px;
+.img-side{
 }
+.img-side img{
+    height: 100%;
+    margin-left: 30px;
+}
+
+
+
 .main-certificats{
     width: 100%;
     height: 300px;
